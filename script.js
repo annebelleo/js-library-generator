@@ -13,7 +13,7 @@ function getRandomInt(max) {
 }
 
 document.addEventListener("click", function(){
-    var i = getRandomInt(8);
+    var i = getRandomInt(7);
     window.location = libraries[i];
 });
 
